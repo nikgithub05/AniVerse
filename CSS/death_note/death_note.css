@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kode+Mono:wght@400..700&family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kode+Mono:wght@400..700&family=Pirata+One&family=Spicy+Rice&display=swap');
+
+@font-face {
+    font-family: 'CustomFont_1';  /* This is the name you'll use in CSS */
+    src: url('../../Fonts/CloisterBlack.ttf') format('truetype');  /* Specify the font file path and format */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CustomFont_2';  /* This is the name you'll use in CSS */
+    src: url('../../Fonts/death-font.ttf') format('truetype');  /* Specify the font file path and format */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CustomFont_3';  /* This is the name you'll use in CSS */
+    src: url('../../Fonts/Death_Note.ttf') format('truetype');  /* Specify the font file path and format */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+header{
+    font-size: 90px;
+    color: white;
+    font-weight: 900;
+    /* font-family: "Abril Fatface", serif; */
+    /* font-family: "Spicy Rice", serif; */
+    font-family: "CustomFont_3", system-ui;
+    text-align: center;
+    background-image: url(../../Assests/deathnote_wall\ -\ Copy.jpg);
+    height: auto;
+    width: 100vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about_deathnote_text{
+    display: flex;
+    background-color:rgba(68, 68, 68, 0.8);
+    border-radius: 10px;
+    width: 75vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 10px;
+    font-family: "CustomFont_1", system-ui;
+    font-size: 26px;
+}
+
+.about_deathnote_text p{
+    margin: 0px;
+}
+
+.about_deathnote img{
+    float: right;
+    height: fit-content;
+    width: 20vw;
+    margin-right: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.character_intro h2{
+    text-align: center;
+    font-family: 'CustomFont_2';
+    background-color: rgba(255, 0, 0, 0.47);
+    font-size: 40px;
+}
+
+/* .light_yagami{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 18px;
+    font-family: "CustomFont_3";
+    font-weight: bold;
+    font-size: 26px;
+    gap: 50px;
+} */
+
+
+.light_yagami {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 18px;
+    font-family: "CustomFont_3";
+    font-weight: bold;
+    font-size: 26px;
+    gap: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.light_yagami::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../Assests/kira.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1; 
+}
+
+.light_yagami_info{
+    display: flex;
+    justify-content: center;
+    width: 85vw;
+}
