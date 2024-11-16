@@ -4,22 +4,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kode+Mono:wght@400..700&family=Pirata+One&family=Spicy+Rice&display=swap');
 
 @font-face {
-    font-family: 'CustomFont_1';  /* This is the name you'll use in CSS */
-    src: url('../../Fonts/CloisterBlack.ttf') format('truetype');  /* Specify the font file path and format */
+    font-family: 'CustomFont_1';
+    src: url('../../Fonts/CloisterBlack.ttf') format('truetype'); 
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'CustomFont_2';  /* This is the name you'll use in CSS */
-    src: url('../../Fonts/death-font.ttf') format('truetype');  /* Specify the font file path and format */
+    font-family: 'CustomFont_2';  
+    src: url('../../Fonts/death-font.ttf') format('truetype');  
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'CustomFont_3';  /* This is the name you'll use in CSS */
-    src: url('../../Fonts/Death_Note.ttf') format('truetype');  /* Specify the font file path and format */
+    font-family: 'CustomFont_3'; 
+    src: url('../../Fonts/Death_Note.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CustomFont_4';
+    src: url(../../Fonts/A_Lolita_Scorned.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -130,4 +137,27 @@ header{
     display: flex;
     justify-content: center;
     width: 85vw;
+    background-color: rgba(255, 255, 255, 0.205);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.L{
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.L_info{
+    color: black;
+    font-family: 'CustomFont_2';
+    font-size: 28px;
+    padding: 10px;
+}
+
+.about_misa{
+    font-family: 'CustomFont_2';
+    font-size: 28px;
+    padding: 10px;
 }
