@@ -145,7 +145,7 @@ header{
 
 .L{
     display: flex;
-    background-color: white;
+    background-color: rgb(202, 202, 202);
     margin-top: 20px;
 }
 
@@ -159,5 +159,5 @@ header{
 .about_misa{
     font-family: 'CustomFont_2';
     font-size: 28px;
-    padding: 10px;
+    padding: 15px;
 }
